@@ -7,4 +7,4 @@
 	email = info@diogoserrano.com
 [core]
 	excludesfile = /Users/diogopms/.gitignore_global
-	editor = /usr/bin/nano
+	editor = subl -n -w
