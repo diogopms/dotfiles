@@ -92,6 +92,10 @@ alias fixyes="stty icrnl"
 
 #alias-docker
 
+ddebian() {
+  docker run -it debian
+}
+
 dstop() { docker stop $(docker ps -a -q); }
 
 drm() { docker rm $(docker ps -a -q); }
