@@ -43,7 +43,7 @@ ZSH_THEME="robbyrussell"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=~/.dotfiles/oh-my-zsh/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -83,35 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# ALIAS
-alias sniff="sudo ngrep -W byline -d 'en0' -t '^(GET|POST) ' 'tcp and port 80'"
-
-
-alias fixyes="stty icrnl"
-
-#alias-docker
-
-ddebian() {
-  docker run -it debian
-}
-
-dstop() { docker stop $(docker ps -a -q); }
-
-drm() { docker rm $(docker ps -a -q); }
-
-dmrr() {
-  docker run -p 6379:6379 --name redis-server-p -d redis;
-  docker run -p 27017:27017 --name mongo-server-p -d mongo:2.6 --smallfiles;
-  docker run -p 5672:5672 -p 15672:15672 --name rabbit-server-p -d rabbitmq:3;
-}
-
-dvolumes() {
-  docker volume rm $(docker volume ls -qf dangling=true)
-}
-
-dnone() {
- docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
-}
+alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
 
 export PATH="$PATH:$HOME/.rvm/bin:/usr/local/sbin" # Add RVM to PATH for scripting
