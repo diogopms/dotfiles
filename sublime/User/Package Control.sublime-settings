@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"BeautifyRuby",
+		"CodeFormatter",
+		"DocBlockr",
+		"Git",
+		"GitSyntaxes",
+		"Handlebars",
+		"Package Control",
+		"Solarized Color Scheme",
+		"Theme - Spacegray",
+		"Whitespace"
+	]
+}
