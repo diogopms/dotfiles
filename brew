@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# Start
+echo "$(basename "$0") starting."
+
+# Ask for the administrator password upfront
+sudo -v
+
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
+
+# install applications
+brew install tmux
+brew install ansible
+brew install awscli
+brew install heroku
+brew install htop
+brew install kubernetes-cli
+brew install youtube-dl
+brew install node
+brew install neovim
+brew install yarn
+brew install git
+brew install unrar
+
+# cleanup unneeded files
+brew cleanup
+
+# Finished
+echo "$(basename "$0") complete."
