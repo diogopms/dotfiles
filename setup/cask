@@ -57,7 +57,6 @@ if [[ $isWorkMachine == true ]] ; then
  brew cask install zoomus
 fi
 
-
 # cleanup unneeded files
 brew cleanup
 
