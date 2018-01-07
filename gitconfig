@@ -10,5 +10,5 @@
 	editor = subl -n -w
 
 [alias]
-        personal = !git config user.name \"diogopms\" && git config user.email \"info@diogoserrano.com\"
-        work = !git config user.name \"diogopms\" && git config user.email \"diogo.serrano@talkdesk.com\"
+        personal = !git config user.name \"Diogo Serrano\" && git config user.email \"info@diogoserrano.com\"
+        work = !git config user.name \"Diogo Serrano\" && git config user.email \"diogo.serrano@talkdesk.com\"
