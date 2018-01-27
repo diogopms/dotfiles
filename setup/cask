@@ -51,6 +51,7 @@ brew cask install telegram
 brew cask install macdown
 brew cask install slack
 brew cask install omnidisksweeper
+brew cask install etcher
 
 # if this is a work machine
 if [[ $isWorkMachine == true ]] ; then
