@@ -52,6 +52,7 @@ brew cask install macdown
 brew cask install slack
 brew cask install omnidisksweeper
 brew cask install etcher
+brew cask install discord
 
 # if this is a work machine
 if [[ $isWorkMachine == true ]] ; then
