@@ -1,0 +1,13 @@
+#!/bin/bash -e
+ln -s .dotfiles/gitconfig $HOME/.gitconfig
+ln -s .dotfiles/gitignore_global $HOME/.gitignore_global
+ln -s .dotfiles/zshrc $HOME/.zshrc
+ln -s .dotfiles/tmux.conf $HOME/.tmux.conf
+
+# Set a blazingly fast keyboard repeat rate
+#defaults write NSGlobalDomain KeyRepeat -int 0.02
+#defaults write NSGlobalDomain InitialKeyRepeat -int 12
+
+# Default
+#defaults delete NSGlobalDomain KeyRepeat
+#defaults delete NSGlobalDomain InitialKeyRepeat
