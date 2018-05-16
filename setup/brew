@@ -20,7 +20,7 @@ brew install heroku
 #brew install htop
 brew install kubernetes-cli
 brew install youtube-dl
-brew install node
+brew install nvm
 brew install neovim
 brew install yarn
 brew install git
