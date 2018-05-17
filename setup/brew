@@ -16,7 +16,6 @@ brew upgrade
 brew install tmux
 brew install ansible
 brew install awscli
-brew install heroku
 #brew install htop
 brew install kubernetes-cli
 brew install youtube-dl
