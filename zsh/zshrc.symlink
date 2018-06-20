@@ -88,3 +88,4 @@ export NVM_DIR="$HOME/.nvm"
 
 source ~/.dotfiles/docker/aliases.zsh
 source ~/.dotfiles/zsh/aliases.zsh
+source ~/.dotfiles/system/aliases.zsh
