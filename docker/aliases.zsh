@@ -1,5 +1,3 @@
-#alias-docker
-
 ddebian() {
   docker run -it debian
 }
