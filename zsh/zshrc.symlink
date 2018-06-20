@@ -86,4 +86,5 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 
-alias reload=". ~/.zshrc && echo 'ZSH config reloaded from ~/.zshrc'"
+source ~/.dotfiles/docker/aliases.zsh
+source ~/.dotfiles/zsh/aliases.zsh
