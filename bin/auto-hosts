@@ -1,0 +1,17 @@
+#!/bin/sh
+
+FOLDERNAME=/tmp/auto-script-hosts
+git clone git@github.com:StevenBlack/hosts.git --quiet $FOLDERNAME
+
+cat > $FOLDERNAME/whitelist <<EOF
+# your-domain-name.com
+pub.sapo.pt
+www.googleadservices.com
+googleadservices.com
+js-agent.newrelic.com
+stats.pusher.com
+ssl.google-analytics.com
+EOF
+
+cd $FOLDERNAME; python3 updateHostsFile.py -a -r; rm -rf $FOLDERNAME
+
