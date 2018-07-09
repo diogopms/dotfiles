@@ -11,6 +11,7 @@ googleadservices.com
 js-agent.newrelic.com
 stats.pusher.com
 ssl.google-analytics.com
+abs.twimg.com
 EOF
 
 cd $FOLDERNAME; python3 updateHostsFile.py -a -r; rm -rf $FOLDERNAME
