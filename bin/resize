@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Resize
+
+sips --resampleHeightWidthMax 1357 --setProperty formatOptions 80 *.jpg
