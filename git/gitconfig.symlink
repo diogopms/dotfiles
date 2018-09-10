@@ -8,7 +8,7 @@
 	signingkey = 1C0A7BD220B05E4F
 [core]
 	excludesfile = /Users/diogopms/.gitignore_global
-	editor = subl -n -w
+	editor = code --wait
 [alias]
         personal = !git config user.name \"Diogo Serrano\" && git config user.email \"info@diogoserrano.com\"
         work = !git config user.name \"Diogo Serrano\" && git config user.email \"diogo.serrano@talkdesk.com\" && git config user.signingkey \"98F204D1BDCBFABA\"
