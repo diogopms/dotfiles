@@ -11,7 +11,7 @@
 	editor = code --wait
 [alias]
         personal = !git config user.name \"Diogo Serrano\" && git config user.email \"info@diogoserrano.com\"
-        work = !git config user.name \"Diogo Serrano\" && git config user.email \"diogo.serrano@talkdesk.com\" && git config user.signingkey \"98F204D1BDCBFABA\"
+        work = !git config user.name \"Diogo Serrano\" && git config user.email \"WORK_EMAIL\"
 [commit]
 	gpgsign = true
 [gpg]
