@@ -7,11 +7,11 @@
 	email = info@diogoserrano.com
 	signingkey = 1C0A7BD220B05E4F
 [core]
-	excludesfile = /Users/diogopms/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = code --wait
 [alias]
         personal = !git config user.name \"Diogo Serrano\" && git config user.email \"info@diogoserrano.com\"
-        work = !git config user.name \"Diogo Serrano\" && git config user.email \"WORK_EMAIL\"
+        work = !git config user.name \"Diogo Serrano\" && git config user.email \"dserrano@genesiscloud.com\"
 [commit]
 	gpgsign = true
 [gpg]
