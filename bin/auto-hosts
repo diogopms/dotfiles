@@ -12,6 +12,9 @@ stats.pusher.com
 ssl.google-analytics.com
 abs.twimg.com
 alicdn.com
+apple.com
+icloud.com
+analytics.google.com
 EOF
 
 cd $FOLDERNAME; python3 updateHostsFile.py -a -r; rm -rf $FOLDERNAME
