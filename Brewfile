@@ -12,6 +12,8 @@ brew 'openssl'
 brew 'unrar'
 brew 'gpg'
 brew 'helmfile'
+brew  'zsh-syntax-highlighting'
+
 cask 'docker'
 cask 'iterm2'
 cask 'visual-studio-code'
