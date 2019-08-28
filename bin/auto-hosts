@@ -4,11 +4,11 @@ FOLDERNAME=/tmp/auto-script-hosts
 git clone git@github.com:StevenBlack/hosts.git --quiet $FOLDERNAME
 
 cat > $FOLDERNAME/whitelist <<EOF
-pub.sapo.pt
+www.googletagmanager.com
+googletagmanager.com
 www.googleadservices.com
+google-analytics.com
 googleadservices.com
-js-agent.newrelic.com
-stats.pusher.com
 ssl.google-analytics.com
 abs.twimg.com
 alicdn.com
