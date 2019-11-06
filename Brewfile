@@ -13,6 +13,8 @@ brew 'unrar'
 brew 'gpg'
 brew 'helmfile'
 brew  'zsh-syntax-highlighting'
+brew  'stern'
+brew 'terraform'
 
 cask 'docker'
 cask 'iterm2'
