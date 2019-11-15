@@ -9,3 +9,4 @@ docker-compose.override.yml
 
 #Specific projects
 *diogo_init.sql*
+_docker-compose.override.yml
