@@ -12,27 +12,29 @@ brew 'openssl'
 brew 'unrar'
 brew 'gpg'
 brew 'helmfile'
-brew  'zsh-syntax-highlighting'
-brew  'stern'
+brew 'zsh-syntax-highlighting'
+brew 'stern'
 brew 'terraform'
 
 cask 'docker'
 cask 'iterm2'
 cask 'visual-studio-code'
 cask 'slack'
+cask 'zeplin'
+cask 'recordit'
 
 # Required privileges access
 #cask 'virtualbox
 #cask 'virtualbox-extension-pack
 
 # Others
-cask 'alfred'
 cask '1password'
 cask 'cyberduck'
-cask 'cleanmymac3'
+cask 'cleanmymac'
 cask 'google-chrome'
 cask 'tunnelbear'
 cask 'google-cloud-sdk'
+cask 'ledger-live'
 
 #cask 'little-snitch'
 # cask 'keybase'
