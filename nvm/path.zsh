@@ -1,3 +1,3 @@
-export NVM_DIR="$HOME/.nvm"
-
-. "/usr/local/opt/nvm/nvm.sh"
+# brew uninstall --ignore-dependencies --force node
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
