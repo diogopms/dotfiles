@@ -5,8 +5,7 @@ npm-debug.log
 spec/examples.txt
 docker-compose.override.yml
 *.vscode*
-*data*
 
 #Specific projects
-*diogo_init.sql*
 _docker-compose.override.yml
+*diogo*
