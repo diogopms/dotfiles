@@ -15,6 +15,7 @@ brew 'helmfile'
 brew 'zsh-syntax-highlighting'
 brew 'stern'
 brew 'terraform'
+brew 'wakeonlan'
 
 cask 'docker'
 cask 'iterm2'
