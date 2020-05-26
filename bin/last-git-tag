@@ -1,0 +1,5 @@
+#!/bin/bash
+organization=$1
+repo=$2
+url="https://api.github.com/repos/$organization/$repo/tags"
+curl -s -H "Authorization: token $GITHUB_TOKEN" -H "Accept: application/vnd.github.v3+json" $url | jq -r '.[0].name'
