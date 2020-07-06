@@ -16,3 +16,7 @@
 	gpgsign = true
 [gpg]
 	program = gpg
+
+[pull]
+	rebase = true
+	ff = only
