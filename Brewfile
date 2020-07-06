@@ -33,7 +33,7 @@ cask '1password'
 cask 'cyberduck'
 cask 'cleanmymac'
 cask 'google-chrome'
-cask 'tunnelbear'
+cask 'private-internet-access'
 cask 'google-cloud-sdk'
 cask 'ledger-live'
 
