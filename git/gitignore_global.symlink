@@ -8,4 +8,4 @@ docker-compose.override.yml
 
 #Specific projects
 _docker-compose.override.yml
-*diogo*
+*ignore-git*

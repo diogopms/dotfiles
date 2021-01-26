@@ -10,8 +10,8 @@
 	excludesfile = ~/.gitignore_global
 	editor = code --wait
 [alias]
-        personal = !git config user.name \"Diogo Serrano\" && git config user.email \"info@diogoserrano.com\"
-        work = !git config user.name \"Diogo Serrano\" && git config user.email \"dserrano@genesiscloud.com\"
+	personal = !git config user.name \"Diogo Serrano\" && git config user.email \"info@diogoserrano.com\"
+	work = !git config user.name \"Diogo Serrano\" && git config user.email \"dserrano@genesiscloud.com\"
 [commit]
 	gpgsign = true
 [gpg]
