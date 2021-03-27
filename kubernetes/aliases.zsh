@@ -9,3 +9,4 @@ alias logs-stg="stern --context DEV-STG-gws-services --exclude='kube-probe|insta
 # alias logs-prd="stern --context PRD-gws-services --exclude='kube-probe|instances to sync|listInstances' --since 30m -n gws-production"
 alias logs-prd="stern --context PRD-gws-services --exclude='kube-probe' --since 5m -n gws-production"
 alias logs-prd-grs="stern --context PRD-gws-services --exclude='kube-probe' --since 5m -n grs-production"
+alias logs-traefik="stern --context PRD-gws-services --exclude='kube-probe' --since 5m  -A gws-traefik"
