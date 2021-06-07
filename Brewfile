@@ -15,7 +15,6 @@ brew 'zsh-syntax-highlighting'
 brew 'stern'
 brew 'terraform'
 
-cask 'docker'
 cask 'iterm2'
 cask 'visual-studio-code'
 cask 'slack'
