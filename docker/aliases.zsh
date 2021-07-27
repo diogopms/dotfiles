@@ -19,3 +19,10 @@ dvolumes() {
 dnone() {
  docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 }
+
+alias yt-dl-docker='docker run \
+                    --rm -i \
+                    -e PGID=$(id -g) \
+                    -e PUID=$(id -u) \
+                    -v "$(pwd)":/workdir:rw \
+                    mikenye/youtube-dl'
