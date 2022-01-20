@@ -14,6 +14,7 @@ brew 'gpg'
 brew 'zsh-syntax-highlighting'
 brew 'stern'
 brew 'terraform'
+brew 'gh'
 
 cask 'iterm2'
 cask 'visual-studio-code'
